@@ -1,0 +1,44 @@
+#informations, #formation {
+  color: #fff;
+}
+
+#competences, #exp-pro {
+  color: #000;
+}
+
+img {
+  width: auto;
+  height: 100%;
+}
+
+#social img {
+  width: 2em;
+}
+
+#title {
+  height: 10vh;
+}
+
+#title h1 {
+  color: white;
+  text-align: center;
+  line-height: 9vh;
+  font-size: 2em;
+}
+
+#photo {
+  height: 20vh;
+  justify-self: center;
+}
+
+section header {
+  text-align: center;
+}
+
+.comp p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8em;
+}
