@@ -1,9 +1,9 @@
 #informations, #formation {
-  color: #fff;
+  color: #000;
 }
 
 #competences, #exp-pro {
-  color: #000;
+  color: #fff;
 }
 
 img {
@@ -41,4 +41,26 @@ section header {
 
 h2 {
   font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+#social {
+  flex-basis: 100%;
+}
+
+#presentation p {
+  max-width: 70%; 
+  align-self: center;
+}
+
+.exp-info {
+  max-width: 80%;
+  text-align: center;
 }

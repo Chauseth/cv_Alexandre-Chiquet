@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--   <link rel="stylesheet" href="./css/reset.css" /> -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/darkly-theme.css">
   <link rel="stylesheet" href="./css/styles.css" />
   <title>CV de Alexandre CHIQUET</title>
@@ -13,17 +13,14 @@
 
 <body>
 
-  <div class="container p-0">
+  <div class="container-fluid p-0">
     <header id="title" class="bg-dark">
       <h1>CV de Alexandre CHIQUET</h1>
     </header>
-  
+
     <!-- Informations -->
-    <section id="informations" class="bg-secondary pb-5 pt-3 d-flex flex-column align-items-center">
-      <div id="photo" class="">
-        <img src="./img/tintin.png" />
-      </div>
-      <div id="presentation" class="p-2 d-flex flex-column justify-content-center">
+    <section id="informations" class="bg-white  p-5 d-flex flex-column align-items-center">
+      <div id="presentation" class="d-flex flex-column justify-content-center">
         <h2 class="text-center">Présentation</h2>
         <p class="text-center">
           Diplomé d'un BTS SIO, après plusieurs années d'expériences dans
@@ -31,89 +28,109 @@
           tourne vers le développement web orienté Front-end.
         </p>
       </div>
-  
-      <div id="infos" class="p-2 d-flex flex-column justify-content-center align-items-center">
-          <h2>Informations de contact</h2>
-          <p>Nom : Alexandre CHIQUET</p>
-          <p>Adresse : 66 rue d'Inkermann 35000 Rennes</p>
-          <p>Téléphone : 01 23 45 67 89</p>
-          <p>Mail : alexandre.chiquet@hotmail.com</p>
+
+      <div id="infos" class=" d-flex flex-column justify-content-center">
+        <h2 class="text-center">Informations de contact</h2>
+        <p>Nom : Alexandre CHIQUET</p>
+        <p>Adresse : 66 rue d'Inkermann 35000 Rennes</p>
+        <p>Téléphone : 01 23 45 67 89</p>
+        <p>Mail : alexandre.chiquet@hotmail.com</p>
       </div>
 
       <div id="social" class="d-flex flex-column justify-content-center align-items-center">
-          <h2>Réseaux sociaux : </h2>
-          <div id="social-icon">
-            <a class="pr-2" href="https://github.com/Chauseth"><img src="./img/GitHub-Mark-32px.png" /></a>
-            <a href="https://www.linkedin.com/in/alexandre-chiquet-142878a4/"><img src="./img/linkedin-icon-2.svg" /></a>
-          </div>
+        <h2>Réseaux sociaux : </h2>
+        <div id="social-icon">
+          <a class="pr-2" href="https://github.com/Chauseth">
+            <img src="./img/GitHub-Mark-32px.png" />
+          </a>
+          <a href="https://www.linkedin.com/in/alexandre-chiquet-142878a4/">
+            <img src="./img/linkedin-icon-2.svg" />
+          </a>
+        </div>
 
       </div>
     </section>
-  
+
     <!-- Expériences professionnelles -->
-    <section id="exp-pro" class="bg-light d-flex flex-column p-1 pb-5 pt-3">
-      <header class="mt-3">
+    <section id="exp-pro" class="bg-secondary d-flex flex-column p-5">
+      <header class="mb-3">
         <h2>Expériences professionnelles</h2>
       </header>
       <div class="experience d-flex flex-column align-items-center mb-5">
-        <div class="exp-logo align-self-center"><a href="https://gfi.world/fr-fr/"><img src="./img/gfi.png"></a></div>
-        <div class="exp-info mt-3">
+        <div class="exp-logo">
+          <a href="https://gfi.world/fr-fr/">
+            <img src="./img/gfi.png">
+          </a>
+        </div>
+        <div class="exp-info mt-3 d-flex flex-column align-items-center">
           <h3 class="text-center">Technicien support informatique</h2>
-          <h4>GFI</h3>
-          <h4>Novembre 2019 - Avril 2020</h3>
+          <h4>GFI</h4>
+          <h4>Novembre 2019 - Avril 2020</h4>
         </div>
         <div class="exp-description">
           <ul>
-            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, nostrum.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, deleniti.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aperiam.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, itaque!</li>
+            <li>Saisie et prise en compte des appels utilisateurs</li>
+            <li>Qualification et résolution en ligne des incidents de niveau 1</li>
+            <li>Escalade des appels vers un groupe de compétence en cas de non résolution</li>
+            <li>Reporting vers le superviseur des incidents graves</li>
           </ul>
         </div>
       </div>
       <div class="experience d-flex flex-column align-items-center mb-5">
-        <div class="exp-logo align-self-center"><a href="https://gfi.world/fr-fr/"><img src="./img/econocom.png"></a></div>
-          <div class="exp-info mt-3">
-            <h2>Technicien support informatique</h2>
-            <h3>Econocom</h3>
-            <h3>Decembre 2015 - Juillet 2019</h3>
-          </div>
-          <div class="exp-description">
-            <ul>
-              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In, nostrum.</li>
-              <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, deleniti.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, aperiam.</li>
-              <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, itaque!</li>
-            </ul>
-          </div>
-        
+        <div class="exp-logo align-self-center">
+          <a href="https://www.econocom.com/fr">
+            <img src="./img/econocom.png">
+          </a>
+        </div>
+        <div class="exp-info mt-3 d-flex flex-column align-items-center">
+          <h3 class="text-center">Technicien support informatique</h2>
+          <h4>Econocom</h4>
+          <h4>Decembre 2015 - Juillet 2019</h4>
+        </div>
+        <div class="exp-description">
+          <ul>
+            <li>Prise en charge des incidents locaux et intervention sur site</li>
+            <li>Résolution de panne matérielle sur site</li>
+            <li>Référent d’activité pour les collaborateurs de l’assistance</li>
+            <li>Reporting d’activité vers le client</li>
+          </ul>
+        </div>
+      </div>
     </section>
-  
+
     <!-- Formation -->
-    <section id="formation" class="bg-secondary d-flex flex-column p-1 pb-5 pt-3">
+    <section id="formation" class="bg-white  d-flex flex-column p-1 pb-5 pt-3">
       <header>
         <h2>Formation</h2>
       </header>
-  
+
       <div class="experience d-flex flex-column align-items-center mb-5">
-        <div class="exp-logo align-self-center"><a href="https://www.lyceefulbert.fr/"><img src="./img/lycee_fulbert.png"></a></div>
+        <div class="exp-logo align-self-center">
+          <a href="https://www.lyceefulbert.fr/">
+          <img src="./img/lycee_fulbert.png">
+          </a>
+        </div>
         <div class="exp-info mt-3">
-          <h2>BTS Services Informatiques aux Organisations</h2>
-          <h3>2013 - 2015</h3>
+          <h3>BTS Services Informatiques aux Organisations</h3>
+          <h4>2013 - 2015</h4>
         </div>
       </div>
-  
+
       <div class="experience d-flex flex-column align-items-center mb-5">
-        <div class="exp-logo align-self-center"><a href="http://www.lycee-jdb.fr/"><img src="./img/lycee_jdb.png"></a></div>
+        <div class="exp-logo align-self-center">
+          <a href="http://www.lycee-jdb.fr/">
+            <img src="./img/lycee_jdb.png">
+          </a>
+        </div>
         <div class="exp-info mt-3">
-          <h2>Baccalauréat STI2D</h2>
-          <h3>2010 - 2013</h3>
+          <h3>Baccalauréat STI2D</h3>
+          <h4>2010 - 2013</h4>
         </div>
       </div>
     </section>
-  
+
     <!-- Compétences -->
-    <section id="competences" class="bg-white p-1 pb-5 pt-3">
+    <section id="competences" class="bg-secondary p-5 pb-5 pt-3">
       <header>
         <h2>Compétences</h2>
       </header>
@@ -121,23 +138,23 @@
         <h3 class="align-self-center">Professionnelles</h3>
         <div class="comp">
           <p>HTML5</p>
-          <div class="progress bg-secondary">
+          <div class="progress bg-white">
             <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="comp">
           <p>CSS3</p>
-          <div class="progress bg-secondary">
+          <div class="progress bg-white">
             <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
         <div class="comp">
           <p>Javascript</p>
-          <div class="progress bg-secondary">
+          <div class="progress bg-white">
             <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
-        
+
       </div>
 
       <div id="comp-perso" class="d-flex flex-column align-items-center pt-5">
@@ -148,14 +165,9 @@
         <p>Prise d'initiative</p>
         <p>Polyvalence</p>
       </div>
-  
 
-
-
-  
-     
     </section>
-  
+
     <!-- Centres d'intérêts -->
     <section class="bg-secondary d-flex flex-column align-items-center pt-5">
       <header>
@@ -165,11 +177,13 @@
       <p>Informatique</p>
       <p>Jeux-Vidéos</p>
     </section>
-  
-  
+
+
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
 
 </body>
 
