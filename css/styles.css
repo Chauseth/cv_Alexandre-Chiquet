@@ -1,3 +1,20 @@
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+img {
+  width: auto;
+  height: 100%;
+}
+
 #informations, #formation {
   color: #000;
 }
@@ -6,9 +23,13 @@
   color: #fff;
 }
 
-img {
-  width: auto;
-  height: 100%;
+#social {
+  flex-basis: 100%;
+}
+
+#presentation p {
+  max-width: 70%; 
+  align-self: center;
 }
 
 #social img {
@@ -37,27 +58,6 @@ section header {
 
 .comp p {
   text-align: center;
-}
-
-h2 {
-  font-size: 1.8em;
-}
-
-h3 {
-  font-size: 1.6em;
-}
-
-h4 {
-  font-size: 1.4em;
-}
-
-#social {
-  flex-basis: 100%;
-}
-
-#presentation p {
-  max-width: 70%; 
-  align-self: center;
 }
 
 .exp-info {
