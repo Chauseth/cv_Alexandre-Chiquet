@@ -23,8 +23,8 @@ img {
   color: #fff;
 }
 
-#social {
-  flex-basis: 100%;
+#bloc-haut, #social, #infos, #presentation {
+  min-width: 33%;
 }
 
 #presentation p {
